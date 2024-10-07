@@ -1,2 +1,3 @@
 # MLHS2024
-repo for hws MLHS 2nd grade 2024 
+tg: tau_ceti_pn
+ФИО: Москаленко Александр Дмитриевич
