@@ -172,7 +172,8 @@ def create_dag(dag_id: str, m_name: Literal["random_forest", "linear_regression"
         schedule_interval="0 1 * * *",
         start_date=days_ago(2),
         catchup=False,
-        default_args=DEFAULT_ARGS
+        default_args=DEFAULT_ARGS,
+        tags=['mlops']
     )
 
     with dag:
